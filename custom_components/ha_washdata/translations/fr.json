@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Configuration WashData",
-        "description": "Configurez votre machine à laver ou un autre appareil.\n\nLe capteur de puissance est requis.\n\n**Ensuite, il vous sera demandé si vous souhaitez créer votre premier profil.**",
+        "description": "Configurez votre machine à laver ou un autre appareil.\n\nUn capteur de puissance est requis.\n\n**Ensuite, il vous sera demandé si vous souhaitez créer votre premier profil.**",
         "data": {
           "name": "Nom de l'appareil",
           "device_type": "Type d'appareil",
@@ -12,7 +12,7 @@
         },
         "data_description": {
           "name": "Un nom convivial pour cet appareil (ex. : 'Machine à laver', 'Lave-vaisselle').",
-          "device_type": "Quel type d'appareil est-ce ? Aide à adapter la détection et l'étiquetage.",
+          "device_type": "Quel type d'appareil est-ce ? Aide à adapter la détection et l'étiquetage des cycles.",
           "power_sensor": "L'entité du capteur qui remonte la consommation de puissance en temps réel (en watts) depuis votre prise connectée.",
           "min_power": "Les valeurs au-dessus de ce seuil (en watts) indiquent que l'appareil fonctionne. Commencez avec 2 W pour la plupart des appareils."
         }
@@ -39,7 +39,7 @@
     "step": {
       "init": {
         "menu_options": {
-          "learning_feedbacks": "Consulter les retours d'apprentissage",
+          "learning_feedbacks": "Examiner les retours d'apprentissage",
           "settings": "Paramètres",
           "manage_cycles": "Gérer les cycles",
           "manage_profiles": "Gérer les profils",
